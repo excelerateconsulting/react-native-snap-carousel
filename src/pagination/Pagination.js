@@ -19,6 +19,7 @@ export default class Pagination extends PureComponent {
     }
 
     constructor (props) {
+        super(props)
         // Warnings
         if ((props.dotColor && !props.inactiveDotColor) || (!props.dotColor && props.inactiveDotColor)) {
             console.warn(

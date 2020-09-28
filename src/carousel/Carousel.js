@@ -59,6 +59,7 @@ export default class Carousel extends Component {
     }
 
     constructor (props) {
+        super(props)
         this.state = {
             hideCarousel: true,
             interpolators: []
